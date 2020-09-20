@@ -1,0 +1,9 @@
+version: "3"
+services:
+  server:
+    image: nats
+    container_name: nats
+    ports:
+      - "8222:8222" # Http Monitor
+      - "4222:4222" # Cleint Port
+      - "6222:6222" # Router Port

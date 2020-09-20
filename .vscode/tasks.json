@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "cargobuild",
+    "type": "shell",
+    "command": "cargo build --manifest-path=${workspaceRoot}/rust-client/Cargo.toml",
+    "windows": {
+      "command": "cargo build --manifest-path=${workspaceRoot}/rust-client/Cargo.toml"
+    },
+    "group": "test",
+    "presentation": {
+      "reveal": "always",
+      "panel": "shared"
+    }
+  }]
+}
