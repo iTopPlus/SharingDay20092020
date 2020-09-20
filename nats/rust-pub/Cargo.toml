@@ -1,0 +1,12 @@
+[package]
+name = "rust-pub"
+version = "0.1.0"
+authors = ["Worawut Bootan (Linux) <worawut@theiconweb.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nats = '0.8.0'
+serde = { version = "1.0.114", features = ["derive"] }
+serde_json = "1.0.56"

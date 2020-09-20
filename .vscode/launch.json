@@ -5,7 +5,7 @@
         "type": "lldb",
         "request": "launch",
         "preLaunchTask": "cargobuild",
-        "program": "${workspaceRoot}/rust-client/target/debug/rust-client",
+        "program": "${workspaceRoot}/nats/rust-client/target/debug/rust-client",
         "args": [],
         "cwd": "${workspaceRoot}",
     }]
