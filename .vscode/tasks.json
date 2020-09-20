@@ -7,7 +7,6 @@
     "windows": {
       "command": "cargo build --manifest-path=${workspaceRoot}/rust-client/Cargo.toml"
     },
-    "group": "test",
     "presentation": {
       "reveal": "always",
       "panel": "shared"
