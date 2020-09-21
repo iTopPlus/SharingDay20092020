@@ -12,7 +12,7 @@ struct Person {
 fn main() -> std::io::Result<()> {
     match subscribe() {
         Ok(()) => {
-            println!("Recieve")
+            println!("Recieved")
         }
         Err(e) => {
             println!("Error : {}", e);
